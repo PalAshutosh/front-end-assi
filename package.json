@@ -1,0 +1,17 @@
+{
+  "name": "front-end-assg",
+  "version": "1.0.0",
+  "description": "This project is a full-stack web application featuring secure JWT authentication, a responsive user dashboard, and a CRUD interface for managing Tasks. It highlights a clean separation between frontend and backend, using React (Vite) and Node.js (Express) with a MySQL database.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
